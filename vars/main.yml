@@ -9,15 +9,6 @@ homebrew_installed_packages:
   - dockutil
   - zsh
   - tmux
-  - mercurial
-  - phpmd
-  - php-code-sniffer
-  - php-cs-fixer
-  - phpunit
-  - php70
-  - php70-intl
-  - php70-imagick
-  - php70-mcrypt
   - tree
   - npm
   - yarn
@@ -29,21 +20,16 @@ homebrew_installed_packages:
 homebrew_taps:
   - caskroom/cask
   - caskroom/versions
-  - homebrew/php
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - google-chrome
   - firefox
   - vagrant
-  - virtualbox
-  - phpstorm
   - slack
   - istat-menus
   - atom
   - android-file-transfer
-  - spotify
-  - hipchat
 
 dockitems_to_remove:
   - Launchpad
@@ -82,12 +68,7 @@ dockitems_to_persist:
   - name: Terminal
     path: /Applications/Utilities/Terminal.app
     pos: 6
-  - name: Spotify
-    path: /Applications/Spotify.app
-    pos: 7
-  - name: HipChat
-    path: /Applications/HipChat.app
-    pos: 8
+
 
 
 npm_packages:
